@@ -1,0 +1,58 @@
+.leftbackcard{
+  width: 50%;
+}
+.teamcard{
+  width: 450px;
+}
+
+/* .maincotan {
+  width: 100%;
+  margin: auto;
+}
+.innercotan {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.carditem {
+  width: 450px;
+  margin: 10px !important;
+}
+.backgrodis {
+  min-height: 450px;
+}
+.leftbackcard {
+  max-width: 100%;
+  min-width: 450px;
+}
+.rightbackcard {
+  max-width: 50%;
+  min-width: 450px;  
+  text-align: left;
+}
+.rigthcarddis {
+    text-align: left;
+  }
+.left-image {
+  width: 90%;
+}*/
+@media screen and (max-width: 460px) {
+  .leftbackcard{
+    width: 90%;
+  }
+  .teamcard{
+    width: 300px;
+  }
+  .carditem {
+    width: 320px;
+  }
+  .thumb-container>img{
+    width: 250px;
+  }
+  .innercotan{
+    width: auto;
+  }
+  
+} 

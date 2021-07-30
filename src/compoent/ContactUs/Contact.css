@@ -1,0 +1,38 @@
+.maincotan {
+  width: 100%;
+  margin: auto;
+}
+.innercotan {
+  width: 80%;
+  margin: auto;
+}
+.mapcontan {
+  width: 70%;
+}
+.mapdiscontan {
+  width: 30%;
+  text-align: left;
+}
+.formcontan {
+  width: 70%;
+  text-align: left;
+}
+.accordingcotan {
+  width: 30%;
+  text-align: left;
+}
+fieldset {
+  border: none;
+}
+@media screen and (max-width: 480px) {
+.innercotan {
+      flex-direction: column;
+}
+.mapdiscontan{
+  width: 95%;
+  margin: auto;
+}
+.formcontan , .accordingcotan{
+  width: 100%;
+}
+}

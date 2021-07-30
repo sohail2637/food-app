@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #243028;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.flexcolum {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.slick-next:before {
+  background-color: #243028;
+  font-size: 50px;
+  margin-right: -25px;
+}
+.slick-prev:before {
+  font-size: 50px;
+  background-color: #243028;
+  margin-left: -25px;
+}
+/* logout button style */
+.MuiPaper-root,
+.MuiMenu-paper,
+.MuiPopover-paper,
+.MuiPaper-elevation8,
+.MuiPaper-rounded {
+  top: 65px !important;
+}
